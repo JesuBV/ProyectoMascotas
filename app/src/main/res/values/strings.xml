@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mascotas</string>
+    <string name="btn_next">Mostrar mascotas</string>
+    <string name="menu_about">About</string>
+    <string name="menu_ranking">Ranking</string>
+    <string name="tv_nombre">Nombre</string>
+    <string name="tv_ranking">0</string>
+    <string name="txt_About">En esta pantalla se muestra una lista interactiva de mascotas que los usuarios pueden rankear a sus preferencias (valor de 0 a 5)</string>
+    <string name="txt_AboutR">En esta pantalla se muestra una lista  de manera organizada y atractiva las mascotas favoritas o ranqueadas de la aplicación. </string>
+    <string name="pdescripcion">descripcion</string>
+    <string name="pedad">edad</string>
+    <string name="pmh">mh</string>
+    <string name="pcolor">color</string>
+    <string name="ppelaje">pelaje</string>
+    <string name="pnombre">nombre</string>
+    <string name="text_descripción">Es un gato......................</string>
+</resources>

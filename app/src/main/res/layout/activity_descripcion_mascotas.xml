@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DescripcionMascotas">
+
+  <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+      android:id="@+id/mySwiperefresh"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      tools:ignore="MissingConstraints">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/padding_Top"
+        android:paddingBottom="@dimen/padding_Bottom"
+        android:paddingLeft="@dimen/padding_Left"
+        android:paddingRight="@dimen/padding_Rigth"
+        tools:ignore="MissingConstraints">
+
+      <ImageView
+          android:id="@+id/ivMascota"
+          android:layout_width="159dp"
+          android:layout_height="169dp"
+          android:paddingLeft="10dp"
+          android:paddingRight="10dp"
+          android:src="@drawable/drw_info" />
+
+      <TextView
+          android:id="@+id/tvDescripcion"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/margin_Top"
+          android:text="@string/text_descripción"
+          android:gravity="center"
+          android:textSize="@dimen/text_size"/>
+
+      <TextView
+          android:id="@+id/tvEdad"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/margin_Top"
+          android:text="@string/text_descripción"
+          android:textSize="@dimen/text_size"/>
+      <TextView
+          android:id="@+id/tvMachoHembra"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/margin_Top"
+          android:text="@string/text_descripción"
+          android:textSize="@dimen/text_size"/>
+      <TextView
+          android:id="@+id/tvColor"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/margin_Top"
+          android:text="@string/text_descripción"
+          android:textSize="@dimen/text_size"/>
+      <TextView
+          android:id="@+id/tvPelaje"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/margin_Top"
+          android:text="@string/text_descripción"
+          android:textSize="@dimen/text_size"/>
+    </LinearLayout>
+
+  </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+  </androidx.constraintlayout.widget.ConstraintLayout>

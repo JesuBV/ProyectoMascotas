@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/padding_Top"
+    android:paddingBottom="@dimen/padding_Bottom"
+    android:paddingLeft="@dimen/padding_Left"
+    android:paddingRight="@dimen/padding_Rigth"
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMascotas"
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        android:layout_centerHorizontal="true" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabCamara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="17dp"
+        android:backgroundTint="@color/purple_700"
+        android:clickable="true"
+        app:srcCompat="@drawable/drw_camara"/>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_Left">16dp</dimen>
+    <dimen name="padding_Rigth">16dp</dimen>
+    <dimen name="padding_Top">16dp</dimen>
+    <dimen name="padding_Bottom">16dp</dimen>
+    <dimen name="margin_Top">25dp</dimen>
+    <dimen name="card_medida">200dp</dimen>
+    <dimen name="card_height">300dp</dimen>
+    <dimen name="card_corner">5dp</dimen>
+    <dimen name="text_size">20dp</dimen>
+</resources>
